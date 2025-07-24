@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   
+header { 
+    background-color: #F6AFCD;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+   
+.navbar-brand, .nav-link { 
+    color: #ffffff; 
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Balsamiq Sans";
+    text-transform: uppercase;
+} 
+
+.dropdown-menu.show{
+    background-color: black;
+    font-family: "Balsamiq Sans";
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand, .dropdown-item{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand, .dropdown-item:hover{
+    background-color: #F6AFCD;
+    color: black;
+}
+   
+.social-icons a { 
+    margin-left: 15px; 
+    font-size: 2rem;
+    color: #ffffff; 
+    font-size: 20px;
+} 
+   
+.nav-link:hover {
+    color: #E32B23;
+}
+   
+.social-icons a:hover{
+    color: #E32B23;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+#plat-uno .content h3{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: "Concert One";
+    color:#F6AFCD;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+#plat-uno .content h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: "Balsamiq Sans";
+    color: #F6AFCD;
+}
+
+#plat-uno .btn-personalizado{
+    background-color: #D82A7C;
+    border-color: #D82A7C;
+    color: #fff;
+    font-family: "Balsamiq Sans";
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#plat-uno .btn-personalizado:hover{
+    background-color: #E32B23;
+    border-color: #E32B23;
+}
+
+/*textos de platos favoritos*/
+
+.col-md-6 h2{
+    color: #F6AFCD;
+    font-size: 2.5em;
+    font-family: "Balsamiq Sans";
+    font-weight: bold;
+    
+}
+
+.col-md-6 h1{
+    color: #E22925;
+    font-size: 3.5em;
+    font-family: "Concert One";
+    
+}
+
+.col-md-6 p{
+    color: #D82A7C;
+    font-size: 25px;
+    font-family: "Balsamiq Sans";
+    text-align:justify;
+    
+}
+
+.favorito{
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 125px;
+}
+
+.btn-precio {
+    background-color: #ff007f;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-precio:hover {
+    background-color: #74023b;
+    transform: scale(1.2);
+    color: #fff;
+  }
+  
+  .card .form-select {
+    margin-top: 10px;
+    border-radius: 25px;
+    border-color: #D82A7C;
+    font-family: "Balsamiq Sans";
+  }
+
+  .col-md-6 img{
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .col-md-6 img:hover{
+    transform: scale(1.05);
+    filter: saturate(160%);
+  }
+
+  /*footer*/
+   .footer {
+    background-color: #89030C;
+    color: #f0f0f0;
+    font-size: 1em;
+    padding-top: 20px;
+  }
+   
+   .footer-logo {
+       width: 100px;
+       max-width: 100%;
+   }
+   
+   .footer p{
+       font-size: 1em;
+       color: #f0f0f0;
+       font-family: "Balsamiq Sans";
+   }
+   
+   .footer h6{
+       font-size: 1em;
+       color: #f0f0f0;
+       padding: 0 30px;
+       font-family: "Balsamiq Sans";
+   }
+   
+   .footer a {
+       font-size: 1.5rem; 
+       color: #f0f0f0;
+       padding: 0 10px;
+   }
+   
+   .footer a:hover {
+       color: #ff6f61; 
+   }
+   
+   .footer .border-top {
+       border-color: #555;
+   }

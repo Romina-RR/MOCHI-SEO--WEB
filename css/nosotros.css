@@ -1,0 +1,241 @@
+/*nosotros pagina*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+   
+header { 
+    background-color: #F6AFCD;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+   
+.navbar-brand, .nav-link { 
+    color: #ffffff; 
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Balsamiq Sans";
+    text-transform: uppercase;
+} 
+
+.dropdown-menu.show{
+    background-color: black;
+    font-family: "Balsamiq Sans";
+    color: rgb(255, 255, 255);
+   }
+
+   .navbar-brand, .dropdown-item{
+    color: rgb(255, 255, 255);
+   }
+
+   .navbar-brand, .dropdown-item:hover{
+    background-color: #F6AFCD;
+    color: black;
+   }
+   
+.social-icons a { 
+    margin-left: 15px; 
+    font-size: 2rem;
+    color: #ffffff; 
+    font-size: 20px;
+} 
+   
+.nav-link:hover {
+    color: #E32B23;
+}
+   
+.social-icons a:hover{
+    color: #E32B23;
+}
+    
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+
+/*nosotros sección uno: info nosotros + video*/
+
+#nos-uno .content h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: "Balsamiq Sans";
+    color: #F6AFCD;
+}
+
+#nos-uno .btn-personalizado{
+    background-color: #D82A7C;
+    border-color: #D82A7C;
+    color: #fff;
+    font-family: "Balsamiq Sans";
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#nos-uno .btn-personalizado:hover{
+    background-color: #E32B23;
+    border-color: #E32B23;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-container video {
+    width: 70%;
+    height: auto;
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 5px solid #FF0066;
+}
+
+#nos-dos .btn-personalizado{
+    background-color: #D82A7C;
+    border-color: #D82A7C;
+    color: #fff;
+    font-family: "Balsamiq Sans";
+    padding: 0.75rem 1.5rem;
+    margin-top: 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#nos-dos .btn-personalizado:hover{
+    background-color: #E32B23;
+    border-color: #E32B23;
+}
+
+.mb-4 h2{
+    font-size: 3.5em;
+    margin-bottom: 1rem;
+    font-family: "Concert One";
+    color:rgb(255, 0, 102);
+    padding-bottom: 25px;
+}
+
+.mb-4 h3{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "Balsamiq Sans";
+    color: #a2134e;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+}
+
+.mb-4 p{
+    font-size: 22px;
+    text-align: justify;
+    font-family: "Balsamiq Sans";
+    padding-bottom: 30px;
+    color: black;
+    justify-content: justify;
+}
+
+/*nosotros sección dos: valores*/
+
+.nos-titulo h2{
+    font-size: 3.5em;
+    margin-bottom: 1rem;
+    font-family: "Concert One";
+    color:rgb(255, 0, 102);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.card{
+    background-color: #F6AFCD;
+    padding-top: 20px;
+    border: white;
+    border-radius: 25px;
+    margin-bottom: 55px;
+}
+
+.card-body p{
+    font-size: 25px;
+    color: #320215 ;
+}
+
+
+/*footer*/
+.footer {
+    background-color: #89030C;
+    color: #f0f0f0;
+    font-size: 1em;
+    padding-top: 20px;
+}
+   
+.footer-logo {
+    width: 100px;
+    max-width: 100%;
+}
+   
+.footer p{
+    font-size: 1em;
+    color: #f0f0f0;
+    font-family: "Balsamiq Sans";
+}
+   
+   
+.footer h6{
+    font-size: 1em;
+    color: #f0f0f0;
+    padding: 0 30px;
+    font-family: "Balsamiq Sans";
+}
+   
+.footer a {
+    font-size: 1.5rem; 
+    color: #f0f0f0;
+    padding: 0 10px;
+}
+   
+.footer a:hover {
+    color: #ff6f61; 
+}
+   
+.footer .border-top {
+    border-color: #555;
+}

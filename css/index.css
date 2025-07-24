@@ -1,0 +1,352 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   }
+   
+   header { 
+    background-color: #F6AFCD;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+   }
+   
+   .navbar-brand, .nav-link { 
+    color: #ffffff; 
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Balsamiq Sans";
+    text-transform: uppercase;
+   } 
+
+   .dropdown-menu.show{
+    background-color: black;
+    font-family: "Balsamiq Sans";
+    color: rgb(255, 255, 255);
+   }
+
+   .navbar-brand, .dropdown-item{
+    color: rgb(255, 255, 255);
+   }
+
+   .navbar-brand, .dropdown-item:hover{
+    background-color: #F6AFCD;
+    color: black;
+   }
+   
+   .social-icons a { 
+    margin-left: 15px; 
+    font-size: 2rem;
+    color: #ffffff; 
+    font-size: 20px;
+   
+   } 
+   
+   .nav-link:hover {
+       color: #E32B23;
+   }
+   
+   .social-icons a:hover{
+       color: #E32B23;
+   }
+   
+   /*Seccion 1*/
+   #seccion1 {
+       position: relative;
+       height: auto;
+   }
+   
+   #seccion1 .overlay {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       background: rgba(0, 0, 0, 0.5);
+       z-index: 1;
+   }
+   
+   #carouselExampleAutoplaying {
+       height: 80vh;
+   }
+   
+   .carousel-item img {
+       height: 80vh;
+       object-fit: cover;
+   }
+   
+   #seccion1 .text-container {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       color: #fff;
+       text-align: center;
+       z-index: 999;
+   }
+   
+   #seccion1 .text-container h2 {
+       font-size: 3rem;
+       font-weight: bold;
+       margin-bottom: 1rem;
+       font-family: "Balsamiq Sans";
+       color: #F6AFCD;
+   }
+   
+   #seccion1 .text-container p {
+       font-size: 1.5rem;
+       margin-bottom: 1.5rem;
+       font-family: "Balsamiq Sans";
+   }
+   
+   #seccion1 .btn-personalizado {
+       background-color: #D82A7C;
+       border-color: #D82A7C;
+       color: #fff;
+       font-family: "Balsamiq Sans";
+       padding: 0.75rem 1.5rem;
+       border: none;
+       border-radius: 20px;
+       font-size: 1rem;
+       text-transform: uppercase;
+       text-decoration: none;
+       transition: background-color 0.3s ease;
+   }
+   
+   #seccion1 .btn-personalizado:hover {
+       background-color: #E32B23;
+       border-color: #E32B23;
+   }
+   
+   /*Secci�n2*/
+   .seccion-nosotros {
+       background: linear-gradient(to bottom, #f2b8cea7, #d82a7ba5);
+       color: #fff;
+       padding: 60px 0;
+       box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+   }
+   
+   .seccion-nosotros p{
+       font-size: 20px;
+       text-align: justify;
+       font-family: "Balsamiq Sans";
+       padding-bottom: 30px;
+   }
+   
+   .titulo-nosotros {
+       font-weight: bold;
+       color: #FF0066;
+       font-family: "Concert One";
+       padding-bottom: 50px;
+       font-size: 2.5em;
+   }
+   .video1 {
+       width: 50%;
+       height: auto;
+       border-radius: 15px;
+       background-color: #ffffff;
+       padding: 15px;
+       border: 5px solid #FF0066;
+   }
+   
+   .boton-conocenos {
+       background-color: #FF0066;
+       border-color: #FF0066;
+       color: #fff;
+       font-family: "Balsamiq Sans";
+       padding: 10px 20px;
+       font-weight: bold;
+       text-transform: uppercase;
+       border-radius: 20px;
+       text-decoration: none;
+       display: inline-block;
+       margin:  0 35%;
+   }
+   
+   .boton-conocenos:hover {
+       background-color: #E32B23;
+       border-color: #E32B23;
+   }
+   
+   .col-md-6.d-flex {
+       text-align: center;
+       height: 100%;
+   }
+   
+
+   /*seccion 3*/
+.favoritos {
+    background-color: #f8cbde;
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.favoritos h2{
+    font-family: "Concert One";
+    color: #FF0066;
+    padding-bottom: 15px;
+    font-size: 2.5em;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.img-container img {
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: auto;
+    border: 5px solid #FF0066;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.img-container:hover img {
+    transform: scale(1.1); 
+}
+
+.overlay-favoritos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(47, 1, 23, 0.585);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.img-container:hover .overlay-favoritos {
+    opacity: 1;
+}
+
+.overlay-text-favoritos {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Balsamiq Sans";
+}
+
+.btn-pink {
+    background-color: #FF0066;
+    border-color: #FF0066;
+    color: #fff;
+    font-family: "Balsamiq Sans";
+    font-size: 1.2em;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-pink:hover {
+    background-color: #E32B23;
+    border-color: #E32B23;
+    color: #fff;
+}
+
+/*seccion 4*/
+.seccion-ubicacion {
+    padding: 30px 0;
+}
+
+.titulo-ubicacion {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Concert One";
+    color: #FF0066;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.mapa-container {
+    border: 5px solid #FF0066;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-right: 3rem;
+}
+
+.formulario-container {
+    margin-left: 3rem; /* Opcional, espaciado desde el formulario */
+}
+
+.seccion-ubicacion label{
+    font-family: "Concert One";
+    color: #8b0141;
+    font-size: 1.2em;
+}
+
+.seccion-ubicacion input{
+    border: 3px solid #FF0066;
+    border-radius: 15px;
+}
+
+.seccion-ubicacion textarea{
+    border: 3px solid #FF0066;
+    border-radius: 15px;
+}
+
+.btn-formulario{
+    background-color: #FF0066;
+    border-color: #5c3746;
+    color: #fff;
+    font-family: "Balsamiq Sans";
+    font-size: 1.2em;
+    border: none;
+    padding: 8px 30px;
+    margin: 0 40%;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-formulario:hover{
+    background-color: #E32B23;
+    border-color: #E32B23;
+    color: #fff;
+}
+   
+/*footer*/
+.footer {
+    background-color: #89030C;
+    color: #f0f0f0;
+    font-size: 1em;
+    padding-top: 20px;
+}
+   
+   .footer-logo {
+       width: 100px;
+       max-width: 100%;
+   }
+   
+   .footer p{
+       font-size: 1em;
+       color: #f0f0f0;
+       font-family: "Balsamiq Sans";
+   }
+   
+   
+   .footer h6{
+       font-size: 1em;
+       color: #f0f0f0;
+       padding: 0 30px;
+       font-family: "Balsamiq Sans";
+   }
+   
+   .footer a {
+       font-size: 1.5rem; 
+       color: #f0f0f0;
+       padding: 0 10px;
+   }
+   
+   .footer a:hover {
+       color: #ff6f61; 
+   }
+   
+   .footer .border-top {
+       border-color: #555;
+   }
